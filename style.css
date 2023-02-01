@@ -1,0 +1,119 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+   
+  .fw-hb {
+    font-size: 8rem;
+    line-height: 1px;
+  }
+  
+  
+  .header-bg  {
+      background: url(images/header-img.jpg);
+      height: auto;
+      background-size: cover;
+  }
+  
+  .btn-bg-dark-blue {
+    background-color: rgb(38, 123, 172);
+  }
+  
+  .btn-bg-dark-blue:hover {
+    background-color: rgb(22, 68, 95);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+  .text-dark-blue {
+    color: rgb(21, 66, 92);
+  }
+  
+  .bg-soft-gray {
+    background-color: rgb(248, 247, 247);
+  }
+  
+  
+  h6 {
+    letter-spacing: 5px;
+  }
+  
+  .rotate-icon {
+      transform: rotate(45deg);
+  }
+  
+  
+  
+  /* for count down */
+  
+  general styling
+  :root {
+    --smaller: .75;
+  }
+  
+  body {
+    align-items: center;
+    
+    font-family: -apple-system, 
+      BlinkMacSystemFont, 
+      "Segoe UI", 
+      Roboto, 
+      Oxygen-Sans, 
+      Ubuntu, 
+      Cantarell, 
+      "Helvetica Neue", 
+      sans-serif;
+  }
+   
+  
+  .contact-bg {
+    background: url(images/footer-bg.jpg);
+  }
+  
+  
+  
+  .contact-section {
+  letter-spacing: normal;
+  }
+   
+  #countdown
+  li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+  
+  li span {
+    display: block;
+    font-size: 4.5rem;
+  }
+  
+  .emoji {
+    display: none;
+    padding: 1rem;
+  }
+  
+  .emoji span {
+    font-size: 4rem;
+    padding: 0 .5rem;
+  }
+  
+  @media all and (max-width: 768px) {
+    h1 {
+      font-size: calc(1.5rem * var(--smaller));
+    }
+    
+    li {
+      font-size: calc(1.125rem * var(--smaller));
+    }
+    
+    li span {
+      font-size: calc(3.375rem * var(--smaller));
+    }
+  }
+  
