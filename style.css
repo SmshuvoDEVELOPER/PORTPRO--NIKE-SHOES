@@ -33,9 +33,13 @@
   }
   
   .bg-soft-gray {
-    background-color: rgb(248, 247, 247);
+    background-color: rgba(248, 247, 247, 0.74);
   }
   
+  .bg-gray {
+    background-color: rgb(23, 25, 37);
+
+  }
   
   h6 {
     letter-spacing: 5px;
@@ -45,6 +49,14 @@
       transform: rotate(45deg);
   }
   
+
+  .round-5 {
+    
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+    
+  }
   
   
   /* for count down */
