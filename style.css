@@ -1,4 +1,3 @@
-
 *{
     font-family: 'Poppins', sans-serif;
   }
@@ -44,6 +43,16 @@
   h6 {
     letter-spacing: 5px;
   }
+
+
+@media only screen and (max-width: 600px) {
+    .display-1 {
+font-size: 5rem;
+    }
+}
+
+
+
   
   .rotate-icon {
       transform: rotate(45deg);
